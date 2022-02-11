@@ -8,6 +8,9 @@ export default function App() {
         <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
       <h1>Hello!</h1>
+      <a href="/" className="btn btn-primary">
+        Test
+      </a>
     </div>
   );
 }
