@@ -23,10 +23,10 @@
 }
 
 .Synonyms {
-  line-height: 0.3;
-  padding-top: 10px;
 }
 
 .Synonyms ul {
   padding-left: 0;
+  line-height: 0.3;
+  padding-top: 10px;
 }
