@@ -1,8 +1,9 @@
 import React from "react";
+import "./Dictionary.css";
 
 export default function Meaning(props) {
   return (
-    <div className="Meaning">
+    <div className="Meaning shadow-sm p-3 mb-5 rounded">
       <h3>{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         return (
