@@ -6,14 +6,11 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  let [wordData, setWordData] = useState("");
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
     console.log(response.data[0]);
-    console.log(response.data[0].meanings[0].definitions[0].definition);
-    setWordData({
-      definition: response.data[0].meanings[0].definitions[0].definition,
-    });
+    setResults(response.data[0]);
   }
 
   function search(event) {
@@ -39,7 +36,7 @@ export default function Dictionary() {
           value="Search"
         />
       </form>
-      <Results definition={wordData.definition} />
+      <Results results={results} />
     </div>
   );
 }
