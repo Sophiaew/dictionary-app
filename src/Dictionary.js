@@ -30,12 +30,9 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
           placeholder="Type a word"
         />
-        <input
-          type="submit"
-          className="btn btn-primary btn-sm ms-2 mb-1"
-          value="Search"
-        />
+        <input type="submit" className="btn btn-sm ms-2 mb-1" value="Search" />
       </form>
+      <div className="hint">Suggested words: sunset, forest, wine, sugar</div>
       <Results results={results} />
     </div>
   );

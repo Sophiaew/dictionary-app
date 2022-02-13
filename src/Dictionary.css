@@ -7,11 +7,29 @@
   text-align: center;
 }
 
+.Dictionary .btn {
+  background-color: rgb(221, 160, 221);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.Dictionary .hint {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+
 .Results h2 {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
   padding-bottom: 10px;
+  font-size: 40px;
 }
 
 .Meaning h3 {
@@ -23,12 +41,13 @@
 }
 
 .Synonyms {
+  margin: 10px 0;
+  padding: 0;
 }
 
-.Synonyms ul {
-  padding-left: 0;
-  line-height: 0.3;
-  padding-top: 10px;
+.Synonyms li {
+  display: inline-block;
+  padding: 10px;
 }
 
 .Results .Phonetics {
