@@ -11,7 +11,7 @@
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .Meaning h3 {
@@ -20,4 +20,13 @@
 
 .Meaning {
   background-color: aliceblue;
+}
+
+.Synonyms {
+  line-height: 0.3;
+  padding-top: 10px;
+}
+
+.Synonyms ul {
+  padding-left: 0;
 }
