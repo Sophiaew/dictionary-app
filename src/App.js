@@ -17,7 +17,7 @@ export default function App() {
             This code is{" "}
             <a
               href="https://github.com/Sophiaew/dictionary-app"
-              rel="noreferrer"
+              rel="noreferrer noopener"
               target="_blank"
             >
               open source
