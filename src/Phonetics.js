@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Phonetics(props) {
   if (props.phonetic) {
-    console.log(props.phonetic);
     return (
       <div className="Phonetics">
         <h3>{props.phonetic.text}</h3>

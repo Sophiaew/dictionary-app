@@ -24,6 +24,10 @@
   padding-bottom: 20px;
 }
 
+.Dictionary h1 {
+  font-size: 15px;
+}
+
 .Results h2 {
   text-align: center;
   font-weight: bold;
